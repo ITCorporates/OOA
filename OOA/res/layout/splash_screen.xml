@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textSize="20sp"
+            android:gravity="center"
             android:textAlignment="center"
             android:text="You've come to the \n right place"
             android:textColor="@android:color/white"/>
