@@ -10,6 +10,8 @@ public class SplashScreen extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.splash_screen);
+		getActionBar().hide();
+		
 		 Thread timerThread = new Thread()
 		 {
 	            public void run()
@@ -20,11 +22,11 @@ public class SplashScreen extends Activity {
 	                }catch(InterruptedException e)
 	                {
 	                    e.printStackTrace();
-	                }//finally
-	               /* {
+	                }finally
+	                {
 	                    Intent i = new Intent(SplashScreen.this, MainActivity.class);
 	                    startActivity(i);
-	                }*/
+	                }
 	            }
 	        };
 	        timerThread.start();
