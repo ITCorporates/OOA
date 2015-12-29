@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/ooa_bg" >
+    
+    <LinearLayout 
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_centerInParent="true"
-         android:background="@drawable/ooa_bg"
+        android:layout_height="wrap_content"
+         android:gravity="center"
+         android:layout_gravity="center"
         android:orientation="vertical"
         android:paddingBottom="20dp"
         android:paddingLeft="40dp"
@@ -80,4 +85,5 @@
             android:text="Enter your email and password \n to access your OOA account"/>
         
     </LinearLayout>
+    </ScrollView>
 
