@@ -17,12 +17,14 @@ public class SplashScreen extends Activity {
 					sleep(2000);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
+				}finally {
+					Intent mIntent = new Intent(SplashScreen.this, MainActivity.class);
+					startActivity(mIntent);
 				}
 			}
 		};
 		timerThread.start();
-		Intent mIntent = new Intent(SplashScreen.this, MainActivity.class);
-		startActivity(mIntent);
+		
 	}
 
 	@Override
