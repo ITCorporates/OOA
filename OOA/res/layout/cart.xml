@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ooa_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/mybutton"
+            android:text="Cancel"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="OFFICE OFFICE AUTO"
+            android:textColor="#FFB400"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/mybutton"
+            android:text="Login"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bookingdetails"
+            android:padding="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:background="@drawable/mybutton_yellow"
+            android:drawableRight="@drawable/arrowicon"
+            android:text="Booking Details                   "
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+       
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+      		<TextView
+            android:id="@+id/rout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Route:      "
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:textColor="#FFFFFF"/>
+           <TextView
+            android:id="@+id/mtom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:textColor="#FFB400"
+            android:text="\t        Mohali To Mohali" 
+            android:gravity="right"
+            android:layout_toRightOf="@+id/left_text"
+            android:layout_toEndOf="@+id/left_text"
+            android:paddingLeft="25dp"
+            android:singleLine="true"
+            
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+         android:layout_marginTop="5dp" >
+           
+        
+        <TextView
+            android:id="@+id/picuploc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Pick Up Location:      "
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:textColor="#FFFFFF"/>
+           <TextView
+            android:id="@+id/sec70mohali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:singleLine="true"
+            android:text="Sector 70 Mohali" 
+            android:gravity="left"
+            android:layout_toRightOf="@+id/left_text"
+            android:layout_toEndOf="@+id/left_text"
+            android:paddingLeft="5dp"
+            android:textColor="#FFB400"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+      		<TextView
+            android:id="@+id/pickuptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Pick Up Time:      "
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:textColor="#FFFFFF"/>
+           <TextView
+            android:id="@+id/pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:textColor="#FFB400"
+            android:text="01:20 pm" 
+            android:gravity="right"
+            android:layout_toRightOf="@+id/left_text"
+            android:layout_toEndOf="@+id/left_text"
+            android:paddingLeft="25dp"
+            android:singleLine="true"
+            />
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+      		<TextView
+            android:id="@+id/pickupland"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Pick Up Landmark:      "
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:textColor="#FFFFFF"/>
+           <TextView
+            android:id="@+id/landmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:textColor="#FFB400"
+            android:text="Sector 80 Mohali" 
+           	android:singleLine="true"
+            />
+           
+   </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+      		<TextView
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Return Journey Time:      "
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:textColor="#FFFFFF"/>
+           <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:textColor="#FFB400"
+            android:text="02:40 pm" 
+           	android:singleLine="true"
+           
+            />
+	</LinearLayout>
+	 <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+      		<TextView
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Drop Off Landmark:      "
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:textColor="#FFFFFF"/>
+           <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:textColor="#FFB400"
+            android:text="Sector 70 Mohali" 
+           	android:singleLine="true"
+           
+            />
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+	<Button
+            android:id="@+id/month"
+            android:padding="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:background="@drawable/mybutton"
+            android:drawableRight="@drawable/arrowicon"
+            android:text="MONTH                   "
+            android:textSize="12sp"
+            android:textStyle="bold" />
+	
+	 <Button
+            android:id="@+id/price"
+            android:padding="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:background="@drawable/mybutton"
+            android:drawableRight="@drawable/arrowicon"
+            android:text="PRICE                   "
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="1dp" />
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+	<EditText
+	    android:id="@+id/specificid"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	   	android:layout_weight="1"
+	   	android:singleLine="true"
+	   	android:textSize="15sp"
+	   	android:hint="#35EA75A2f2b"
+	   android:background="@drawable/button_bg_transparent"
+	   android:textColor="#FFFFFF"
+	   android:padding="10dp"/>
+
+	<TextView
+	    android:id="@+id/carttotal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	  	android:singleLine="true"
+	  	android:textColor="@android:color/white"
+	    android:layout_weight="1"
+	    android:text="Cart Totals" 
+	    android:gravity="center" 
+	    android:textSize="20dp"          
+	   />
+
+	</LinearLayout>
+
+
+	<LinearLayout
+	     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal" >
+	
+	    
+	    <TextView
+	    android:id="@+id/coupon"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   	android:singleLine="true"
+	   	android:textSize="10dp"
+	   	android:layout_marginRight="20dp"
+	   	android:text="@string/underlinedText"
+		android:textColor="#FFB400"
+		/>
+
+	<TextView
+	    android:id="@+id/addedprice"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+	  	android:singleLine="true"
+	    android:text="1,420.00" 
+	    android:gravity="center" 
+	    android:textSize="30sp"
+	     android:textColor="#FFB400"          
+	   />
+	</LinearLayout>
+	<Button
+            android:id="@+id/proceedcheck"
+            android:padding="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/mybutton_yellow"
+            android:text="PROCEED TO CHECKOUT"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+</LinearLayout>
